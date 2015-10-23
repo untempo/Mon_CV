@@ -1,0 +1,158 @@
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+}
+
+#liseret
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 10%;
+	height: 100%;
+	background-color: rgba(24,24,24,0.8);
+	border-radius: 10px 10px 10px 10px;
+}
+@media screen and (max-width: 1024px)
+{
+	#liseret
+	{
+		display: none;
+	}
+}
+
+header
+{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+body
+{
+	background: url(background.jpg)
+}
+
+#titre_principal
+{
+    display: inline-block;
+}
+
+h2
+{
+	font-family: Dayrom, 'Trebuchet MS';
+	color: #9B88D9;
+}
+
+@media all and (max-width: 1024px)
+{
+    h2
+    {
+    font-family: Dayrom, 'Trebuchet MS';
+	color: #9B88D9;
+	font-size: 1em;
+    }
+}
+
+.gauche
+{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	left: 10%;
+	width: 25%;
+	min-width: 100px;
+	margin: 20px;
+	padding: 10px;
+}
+
+@media all and (max-width: 1024px)
+{
+    .gauche
+    {
+        display: block;
+        padding-left: 4px;
+		font-size: 0.8em;
+    }
+}
+
+
+.milieu
+{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	left:10%;
+	width: 25%;
+	min-width: 100px;
+	margin: 20px;
+	padding: 10px;
+}
+
+@media all and (max-width: 1024px)
+{
+    .milieu
+    {
+        display: block;
+        padding-left: 4px;
+		font-size: 0.8em;
+    }
+}
+
+.droite
+{
+	display: inline-block;
+	position: relative;
+	left:7%;
+	width: 25%;
+	min-width: 100px;
+	vertical-align: top;
+	margin: 20px;
+	padding: 10px;
+}
+
+@media all and (max-width: 1024px)
+{
+    .droite
+    {
+        display: block;
+        padding-left: 4px;
+		font-size: 0.8em;
+    }
+}
+
+.photo
+{
+	display: inline-block;
+	border-radius: 10px;
+	box-shadow:6px 6px 6px black;
+}
+
+
+.today
+{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: red;
+}
+
+#photoshop
+{
+    color: #F9B600;
+}
+
+
